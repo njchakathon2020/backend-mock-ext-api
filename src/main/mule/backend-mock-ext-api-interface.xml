@@ -3,7 +3,7 @@
     <http:listener-config name="backend-mock-ext-api-httpListenerConfig">
         <http:listener-connection host="0.0.0.0" port="8081" />
     </http:listener-config>
-    <apikit:config name="backend-mock-ext-api-config" api="resource::cd5bf5d6-a7c5-40f7-a8db-9f1046bbc2fd:backend-mock-ext-api:1.0.7:raml:zip:backend-mock-ext-api.raml" outboundHeadersMapName="outboundHeaders" httpStatusVarName="httpStatus" />
+    <apikit:config name="backend-mock-ext-api-config" api="resource::cd5bf5d6-a7c5-40f7-a8db-9f1046bbc2fd:backend-mock-ext-api:1.0.10:raml:zip:backend-mock-ext-api.raml" outboundHeadersMapName="outboundHeaders" httpStatusVarName="httpStatus" />
     <flow name="backend-mock-ext-api-main">
         <http:listener config-ref="backend-mock-ext-api-httpListenerConfig" path="/api/*">
             <http:response statusCode="#[vars.httpStatus default 200]">
@@ -135,9 +135,6 @@ output application/json
     <flow name="get:\v1\geocode\search:backend-mock-ext-api-config">
         <flow-ref doc:name="Flow Reference" doc:id="3fe9a6dd-d1be-485d-b8d9-611ce5da63f3" name="backend-mock-ext-api-implementationFlow-geocodeSerach" />
     </flow>
-    <flow name="get:\v3\uk\public\journey\from\(fromStation)\to\(toStation)\at\(date)\(time):backend-mock-ext-api-config">
-        <flow-ref doc:name="Flow Reference" doc:id="e7c6b343-eb90-4ad3-933f-95d1933c4795" name="backend-mock-ext-api-implementationFlow-public-journey" />
-    </flow>
     <flow name="get:\nrs:backend-mock-ext-api-config">
         <flow-ref doc:name="Flow Reference" doc:id="cd9d7b6b-4454-4ee8-96f9-a065ae4b212c" name="backend-mock-ext-api-implementationFlow-nrs" />
     </flow>
@@ -160,6 +157,9 @@ output application/json
         <flow-ref doc:name="Flow Reference" doc:id="259b13d5-6335-4b4a-92a5-5429b743aff9" name="backend-mock-ext-api-implementationFlow-stations" />
     </flow>
     <flow name="post:\users\(userId)\credentials\forgot_password:backend-mock-ext-api-config">
-		<flow-ref doc:name="Flow Reference" doc:id="8c40bc01-87a0-4099-840a-be7e99dd893e" name="backend-mock-ext-api-implementationFlow-forgot-password" />
+        <flow-ref doc:name="Flow Reference" doc:id="8c40bc01-87a0-4099-840a-be7e99dd893e" name="backend-mock-ext-api-implementationFlow-forgot-password" />
+    </flow>
+    <flow name="get:\v3\uk\public\journey:backend-mock-ext-api-config">
+        <flow-ref doc:name="Flow Reference" doc:id="f64b5640-5bd4-4156-b527-353a1fa66c56" name="backend-mock-ext-api-implementationFlow-public-journey"/>
     </flow>
 </mule>

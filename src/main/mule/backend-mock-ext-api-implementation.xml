@@ -19,7 +19,7 @@ readUrl("classpath://resturatants_mockData/Leeds.json")
 else if(message.attributes.queryParams.bias=="proximity:-1.107544,51.258849")
 readUrl("classpath://resturatants_mockData/Basingstoke.json")
 else if(message.attributes.queryParams.bias=="proximity:-0.112131,51.502497")
-readUrl("classpath://resturatants_mockData/London Waterloo.json")
+readUrl("classpath://resturatants_mockData/London WaterLoo.json")
 else if(message.attributes.queryParams.bias=="proximity:-0.1240631,51.5302558")
 readUrl("classpath://resturatants_mockData/London St Pancras International.json")
 else
@@ -127,7 +127,7 @@ readUrl("classpath://geocodes_mockData/Woking.json")]]></ee:set-payload>
 				<ee:set-payload ><![CDATA[%dw 2.0
 output application/json
 ---
-readUrl("classpath://traindetails_mockData/" ++ message.attributes.uriParams.fromStation as String ++"-" ++ message.attributes.uriParams.toStation as String++".json")]]></ee:set-payload>
+readUrl("classpath://traindetails_mockData/" ++ message.attributes.queryParams.fromStation as String ++"-" ++ message.attributes.queryParams.toStation as String++".json")]]></ee:set-payload>
 			</ee:message>
 		</ee:transform>
 	</flow>
