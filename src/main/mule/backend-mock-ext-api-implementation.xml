@@ -127,7 +127,7 @@ readUrl("classpath://geocodes_mockData/Woking.json")]]></ee:set-payload>
 				<ee:set-payload ><![CDATA[%dw 2.0
 output application/json
 ---
-readUrl("classpath://traindetails_mockData/" ++ message.attributes.queryParams.fromStation as String ++"-" ++ message.attributes.queryParams.toStation as String++".json")]]></ee:set-payload>
+readUrl("classpath://traindetails_mockData/" ++ message.attributes.queryParams.fromStation as String ++"-" ++ message.attributes.queryParams.toStation as String ++ ".json")]]></ee:set-payload>
 			</ee:message>
 		</ee:transform>
 	</flow>

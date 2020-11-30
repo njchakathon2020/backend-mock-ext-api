@@ -46,8 +46,8 @@
                     },
                     "line_name": "84130",
                     "duration": "00:32:00",
-                    "departure_time": "10:30",
-                    "arrival_time": "11:02",
+                    "departure_time": "11:02",
+                    "arrival_time": "10:30",
                     "coordinates": [
                         [
                             -0.11436,
@@ -1467,8 +1467,8 @@
                     },
                     "line_name": "7121",
                     "duration": "00:37:00",
-                    "departure_time": "09:14",
-                    "arrival_time": "10:51",
+                    "departure_time": "09:51",
+                    "arrival_time": "09:14",
                     "coordinates": [
                         [
                             -0.58075,
@@ -2212,8 +2212,8 @@
                     },
                     "line_name": "82794",
                     "duration": "01:11:00",
-                    "departure_time": "14:15",
-                    "arrival_time": "15:26",
+                    "departure_time": "15:26",
+                    "arrival_time": "14:15",
                     "coordinates": [
                         [
                             0.0,
@@ -2265,8 +2265,8 @@
                     },
                     "line_name": "31184",
                     "duration": "01:02:00",
-                    "departure_time": "15:31",
-                    "arrival_time": "16:33",
+                    "departure_time": "16:33",
+                    "arrival_time": "15:31",
                     "coordinates": [
                         [
                             -0.72556,
@@ -3330,8 +3330,8 @@
                     },
                     "line_name": "",
                     "duration": "00:15:00",
-                    "departure_time": "16:33",
-                    "arrival_time": "16:48",
+                    "departure_time": "16:48",
+                    "arrival_time": "16:33",
                     "coordinates": [
                         [
                             -0.135,
@@ -3424,9 +3424,9 @@
                     ]
                 }
             ],
-            "departure_time": "12:30",
+            "departure_time": "16:48",
             "departure_date": "2020-12-30",
-            "arrival_time": "16:48",
+            "arrival_time": "16:33",
             "arrival_date": "2020-12-30"
         },
         {
@@ -3472,8 +3472,8 @@
                     },
                     "line_name": "86563",
                     "duration": "00:46:00",
-                    "departure_time": "13:50",
-                    "arrival_time": "14:36",
+                    "departure_time": "14:36",
+                    "arrival_time": "13:50",
                     "coordinates": [
                         [
                             -0.11436,
@@ -4437,8 +4437,8 @@
                     },
                     "line_name": "82512",
                     "duration": "01:37:00",
-                    "departure_time": "14:49",
-                    "arrival_time": "16:26",
+                    "departure_time": "16:26",
+                    "arrival_time": "14:49",
                     "coordinates": [
                         [
                             -1.05132,
@@ -5898,8 +5898,8 @@
                     },
                     "line_name": "31188",
                     "duration": "01:03:00",
-                    "departure_time": "16:31",
-                    "arrival_time": "17:34",
+                    "departure_time": "17:34",
+                    "arrival_time": "16:31",
                     "coordinates": [
                         [
                             -0.72556,
@@ -6963,8 +6963,8 @@
                     },
                     "line_name": "",
                     "duration": "00:15:00",
-                    "departure_time": "17:34",
-                    "arrival_time": "17:49",
+                    "departure_time": "17:49",
+                    "arrival_time": "17:34",
                     "coordinates": [
                         [
                             -0.135,
@@ -7057,9 +7057,9 @@
                     ]
                 }
             ],
-            "departure_time": "13:50",
+            "departure_time": "17:49",
             "departure_date": "2020-12-30",
-            "arrival_time": "17:49",
+            "arrival_time": "17:33",
             "arrival_date": "2020-12-30"
         },
         {
@@ -7081,8 +7081,8 @@
                     },
                     "line_name": "",
                     "duration": "00:48:00",
-                    "departure_time": "12:00",
-                    "arrival_time": "12:48",
+                    "departure_time": "12:48",
+                    "arrival_time": "12:00",
                     "coordinates": [
                         [
                             -0.11497,
@@ -7423,9 +7423,9 @@
                     ]
                 }
             ],
-            "departure_time": "12:00",
+            "departure_time": "12:48",
             "departure_date": "2020-12-30",
-            "arrival_time": "12:48",
+            "arrival_time": "12:00",
             "arrival_date": "2020-12-30"
         }
     ]
